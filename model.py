@@ -1,6 +1,7 @@
 import tensorflow as tf
-from tensorflow.contrib import rnn
-from tensorflow.contrib import legacy_seq2seq
+# from tensorflow.python.compiler import rnn, legacy_seq2seq
+from tensorflow.contrib import rnn, legacy_seq2seq
+# from tensorflow.contrib import legacy_seq2seq
 import random
 import numpy as np
 
